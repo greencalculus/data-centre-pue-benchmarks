@@ -13,9 +13,18 @@ authors:
   - family-names: Say
     given-names: Jeremiah
     affiliation: "GreenCalculus"
+doi: "10.5281/zenodo.23280657"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23280657"
+    description: "Concept DOI (always the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.23280658"
+    description: "Version 2026.10.10"
 version: "2026.10.10"
 date-released: "2026-10-10"
 url: "https://greencalculus.com/calculators/data-centre-pue-calculator/"
+repository-code: "https://github.com/greencalculus/data-centre-pue-benchmarks"
 license: CC-BY-4.0
 keywords:
   - power usage effectiveness

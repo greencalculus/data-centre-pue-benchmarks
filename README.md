@@ -1,5 +1,7 @@
 # Data Centre PUE Benchmarks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23280657.svg)](https://doi.org/10.5281/zenodo.23280657)
+
 Every publicly disclosed Power Usage Effectiveness (PUE) figure we could trace to its publisher, in one table, with the source, the period, and what each figure measures.
 
 PUE = total facility energy ÷ IT equipment energy (ISO/IEC 30134-2:2026). A PUE of 1.0 would mean every kWh reaches the IT equipment.
@@ -47,6 +49,6 @@ Interactive version with a PUE calculator: https://greencalculus.com/calculators
 
 The compilation is released under **CC BY 4.0**. The figures themselves are facts published by the organisations named in each row; cite them as well as this dataset.
 
-Cite as: Say, J. (2026). *Data Centre PUE Benchmarks* (Version 2026.10.10) [Data set]. GreenCalculus.
+Cite as: Say, J. (2026). *Data Centre PUE Benchmarks* (Version 2026.10.10) [Data set]. GreenCalculus. https://doi.org/10.5281/zenodo.23280658
 
 Corrections: open an issue on this repository with the row id and the source.
