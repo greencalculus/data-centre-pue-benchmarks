@@ -13,7 +13,7 @@ import json
 import pathlib
 
 HERE = pathlib.Path(__file__).parent
-RETRIEVED = "2026-10-10"
+RETRIEVED = "2026-10-11"
 
 FIELDS = [
     "id", "publisher", "scope", "facility_or_region", "country", "period", "period_type",
@@ -137,6 +137,11 @@ def rows():
                 period=f"{fy} ({per})", period_type="fiscal_year", pue=v, metric="operational",
                 boundary_note=msb, source_title=mst, source_url=ms, source_date=fy)
 
+    add(publisher="Equinix", scope="fleet", facility_or_region="Global portfolio", country="",
+        period="2025", period_type="calendar_year", pue="1.37", metric="operational",
+        source_title="Equinix FY2025 Annual Report (SEC Form ARS), chart 'Annualized global average PUE'",
+        source_url="https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf",
+        source_date="2026", notes="Chart labels: 2019 baseline 1.54, 2023 1.42, 2024 1.39, 2025 1.37, 2030 target 1.33. The same report cites a 5.3% year-over-year PUE improvement, which the 1.39 to 1.37 change does not match; the published 1.37 is reported here.")
     add(publisher="Equinix", scope="fleet", facility_or_region="Global portfolio", country="",
         period="2024", period_type="calendar_year", pue="1.39", metric="operational",
         source_title="Equinix Inc. Form 10-K for fiscal year 2025 (SEC filing)",

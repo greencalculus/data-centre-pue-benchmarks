@@ -6,9 +6,9 @@ Every publicly disclosed Power Usage Effectiveness (PUE) figure we could trace t
 
 PUE = total facility energy ÷ IT equipment energy (ISO/IEC 30134-2:2026). A PUE of 1.0 would mean every kWh reaches the IT equipment.
 
-- **104 rows** from 9 publishers: Google (fleet and 35 campuses), Amazon Web Services (fleet and 27 cloud regions), Microsoft, Equinix, Digital Realty, the Uptime Institute global survey (2007–2025), the European Commission's report on EU data centres, IDC estimates as quoted by AWS, and NLR's ESIF data centre.
+- **105 rows** from 9 publishers: Google (fleet and 35 campuses), Amazon Web Services (fleet and 27 cloud regions), Microsoft, Equinix, Digital Realty, the Uptime Institute global survey (2007–2025), the European Commission's report on EU data centres, IDC estimates as quoted by AWS, and NLR's ESIF data centre.
 - **Each value is copied exactly** as the publisher printed it. Nothing is estimated, converted or averaged by us.
-- **Retrieved 10 October 2026.** Each row records its source URL and the table, filing or document date it came from.
+- **Retrieved 10–11 October 2026.** Each row records its source URL and the table, filing or document date it came from.
 
 Interactive version with a PUE calculator: https://greencalculus.com/calculators/data-centre-pue-calculator/
 
@@ -49,6 +49,6 @@ Interactive version with a PUE calculator: https://greencalculus.com/calculators
 
 The compilation is released under **CC BY 4.0**. The figures themselves are facts published by the organisations named in each row; cite them as well as this dataset.
 
-Cite as: Say, J. (2026). *Data Centre PUE Benchmarks* (Version 2026.10.10) [Data set]. GreenCalculus. https://doi.org/10.5281/zenodo.23280658
+Cite as: Say, J. (2026). *Data Centre PUE Benchmarks* (Version 2026.10.11) [Data set]. GreenCalculus. https://doi.org/10.5281/zenodo.23280657
 
 Corrections: open an issue on this repository with the row id and the source.

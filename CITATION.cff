@@ -21,8 +21,8 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23280658"
     description: "Version 2026.10.10"
-version: "2026.10.10"
-date-released: "2026-10-10"
+version: "2026.10.11"
+date-released: "2026-10-11"
 url: "https://greencalculus.com/calculators/data-centre-pue-calculator/"
 repository-code: "https://github.com/greencalculus/data-centre-pue-benchmarks"
 license: CC-BY-4.0
